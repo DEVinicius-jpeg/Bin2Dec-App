@@ -2,6 +2,8 @@
 
 Idea from [here](https://github.com/florinpop17/app-ideas)
 
+Demo. [here](https://vini-bin2dec.netlify.app/).
+
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.
