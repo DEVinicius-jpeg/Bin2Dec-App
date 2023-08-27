@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #0D0D0D;
+    padding: 0 500px;
+}
+
+.container-output{
+    background-color: #1C1C1C;
+    border-radius: 0 0 50px 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.title-out{
+    color: #00DEC3;
+    display: block;
+    text-align: end;
+    padding: 0 15px 0 0;
+}
+
+.alertDigit{
+    color: red;
+    display: none;
+    text-align: end;
+    padding: 0 15px 5px 0;
+}
+
+.title{
+    padding: 20px;
+    margin: 0;
+    align-self: center;
+    color:#00F8DB;
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: #1C1C1C;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    
+}
+
+.btn:active{
+    background-color: #989898;
+}
+
+.btnCalc{
+    background-color: #00F8DB;
+    border-radius: 30px;
+    border: none;
+    height: 100px;
+    width: 160px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.btnCalc:active{
+    background-color: #acfff5;
+}
+
+.btnClear{
+    background-color: #00F8DB;
+    border-radius: 30px;
+    border: none;
+    width: 110px;
+    height: 100px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.btnClear:active{
+    background-color: #acfff5;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.decOut{
+    margin: 10px;
+    background-color:#1C1C1C;
+    border: none;
+    color: #747474;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 6px;
+    font-size: 60px;
+    text-align: end;
+}
+
+.binIn{
+    max-width: 500px;
+    margin: 10px;
+    background-color:#1C1C1C;
+    border: none;
+    color: #D8D8D8;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 8px;
+    text-align: end;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="binary icon" href="./assets/public/arquivo-binario.png" type="image/x-icon">
+    <title>Bin2Dec</title>
+
+    <!-- CDN Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CDN Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-output">
+            <h1 class="title">Bin2Dec</h1>
+            <div class="bin"> 
+                <span class="title-out">Binary Number</span>
+                <input class="binIn" type="text" id="binIn">
+                <span class="alertDigit" id="alertDigit">Only 8 bits</span>
+            </div>
+            <div class="dec">
+                <span class="title-out">Decimal Number</span>
+                <input class="decOut" id="decOut" type="text" disabled>
+            </div>
+        </div>
+        <div class="container-input">
+            <input class="btn" type="button" id="btn1" value="1">
+            <input class="btn" type="button" id="btn0" value="0">
+            <input class="btn" type="button" id="btnDel" value="Del">
+            <input class="btnClear" type="button" id="btnclear" value="AC">
+            <input class="btnCalc" type="button" id="btnCalc" value="Send">
+        </div>
+    </div>
+    <script type="module" src="./assets/js/script.js"></script>
+</body>
+</html>
